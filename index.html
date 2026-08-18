@@ -1,0 +1,1311 @@
+<!DOCTYPE html>
+<html lang="ms" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teratak Bari Resort & Eco Homestay | Penginapan Pesisir Pantai Setiu, Terengganu</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Tempah Teratak Bari Resort & Eco Homestay di Bari Kecil, Setiu, Terengganu. Homestay tepi pantai lengkap kolam renang privasi, BBQ, aircond, berdekatan Jeti Merang & Penarik.">
+    <meta name="keywords" content="homestay bari kecil, homestay setiu, teratak bari, homestay kolam renang terengganu, homestay jeti merang, homestay tepi pantai setiu, chalet bari kecil, tempat menarik setiu">
+    <meta name="author" content="Teratak Bari Resort & Eco Homestay">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://teratakbari.my/">
+
+    <!-- Open Graph / Facebook SEO Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://teratakbari.my/">
+    <meta property="og:title" content="Teratak Bari Resort & Eco Homestay | Penginapan Pesisir Pantai Setiu">
+    <meta property="og:description" content="Rasai keselesaan penginapan seperti di rumah sendiri berhampiran Pantai Bari Kecil, Jeti Merang (Redang), dan Setiu Wetlands. Tempah bilik & semak tarikh sekarang!">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Twitter Card SEO Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Teratak Bari Resort & Eco Homestay | Penginapan Pesisir Pantai Setiu">
+    <meta name="twitter:description" content="Homestay tepi pantai lengkap kolam renang privasi, BBQ, aircond, berdekatan Jeti Merang & Penarik.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Schema.org JSON-LD Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LodgingBusiness",
+      "name": "Teratak Bari Resort & Eco Homestay",
+      "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80",
+      "description": "Penginapan percutian pesisir pantai & eco-resort terunggul di Bari Kecil, Setiu, Terengganu.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jalan Pantai Bari Kecil, Kampung Bari Kecil",
+        "addressLocality": "Setiu",
+        "addressRegion": "Terengganu",
+        "postalCode": "21500",
+        "addressCountry": "MY"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "5.6333",
+        "longitude": "102.7500"
+      },
+      "url": "https://teratakbari.my",
+      "telephone": "+60123456789",
+      "priceRange": "RM190 - RM490",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "350"
+      }
+    }
+    </script>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cyber: {
+                            dark: '#03140e',
+                            card: '#08261b',
+                            green: '#059669',
+                            light: '#2eee8b',
+                            mint: '#86efac',
+                            neon: '#00ff88'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        tech: ['Orbitron', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #03140e;
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+        
+        .font-tech {
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        /* Glassmorphism Futuristic Cards */
+        .glass-futuristic {
+            background: rgba(8, 38, 27, 0.75);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(46, 238, 139, 0.25);
+            box-shadow: 0 8px 32px 0 rgba(0, 255, 136, 0.1);
+        }
+
+        .glass-futuristic-card {
+            background: linear-gradient(135deg, rgba(8, 38, 27, 0.85) 0%, rgba(3, 20, 14, 0.95) 100%);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(46, 238, 139, 0.2);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .glass-futuristic-card:hover {
+            border-color: rgba(46, 238, 139, 0.7);
+            box-shadow: 0 0 25px rgba(46, 238, 139, 0.3);
+            transform: translateY(-6px) scale(1.01);
+        }
+
+        /* Neon Glow Effects */
+        .neon-text-glow {
+            text-shadow: 0 0 10px rgba(46, 238, 139, 0.6), 0 0 20px rgba(46, 238, 139, 0.3);
+        }
+
+        .btn-futuristic {
+            background: linear-gradient(90deg, #059669 0%, #2eee8b 100%);
+            box-shadow: 0 0 20px rgba(46, 238, 139, 0.4);
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .btn-futuristic::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+            transition: 0.5s;
+        }
+
+        .btn-futuristic:hover::before {
+            left: 100%;
+        }
+
+        .btn-futuristic:hover {
+            box-shadow: 0 0 30px rgba(46, 238, 139, 0.8);
+            transform: scale(1.02);
+        }
+
+        /* Pulse Keyframes */
+        @keyframes pulseGlow {
+            0%, 100% {
+                box-shadow: 0 0 15px rgba(46, 238, 139, 0.4);
+            }
+            50% {
+                box-shadow: 0 0 30px rgba(46, 238, 139, 0.8), 0 0 45px rgba(46, 238, 139, 0.3);
+            }
+        }
+
+        .animate-pulse-glow {
+            animation: pulseGlow 3s infinite;
+        }
+
+        /* Futuristic HUD Corner Lines */
+        .hud-box {
+            position: relative;
+        }
+        .hud-box::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            width: 12px;
+            height: 12px;
+            border-top: 2px solid #2eee8b;
+            border-left: 2px solid #2eee8b;
+        }
+        .hud-box::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            right: -2px;
+            width: 12px;
+            height: 12px;
+            border-bottom: 2px solid #2eee8b;
+            border-right: 2px solid #2eee8b;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #03140e;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #2eee8b;
+            border-radius: 4px;
+            box-shadow: 0 0 10px #2eee8b;
+        }
+        
+        /* Interactive Glowing Cursor Follower */
+        #cyber-cursor {
+            pointer-events: none;
+            position: fixed;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(46, 238, 139, 0.12) 0%, rgba(3, 20, 14, 0) 70%);
+            transform: translate(-50%, -50%);
+            transition: left 0.15s ease-out, top 0.15s ease-out;
+            z-index: 1;
+        }
+
+        /* Holographic Image Effect */
+        .holo-image-container {
+            position: relative;
+            overflow: hidden;
+        }
+        .holo-image-container::after {
+            content: "";
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(
+                60deg,
+                transparent 30%,
+                rgba(46, 238, 139, 0.15) 50%,
+                transparent 70%
+            );
+            transform: rotate(30deg);
+            transition: all 0.7s ease;
+            opacity: 0;
+        }
+        .holo-image-container:hover::after {
+            left: 100%;
+            top: 100%;
+            opacity: 1;
+        }
+
+        /* Slider Animations */
+        .carousel-slide {
+            transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+        }
+    </style>
+</head>
+<body class="bg-[#03140e] text-white antialiased selection:bg-[#2eee8b] selection:text-[#03140e]">
+
+    <!-- Interactive Glowing Cursor Light -->
+    <div id="cyber-cursor" class="hidden md:block"></div>
+
+    <!-- Background Interactive Cyber Canvas -->
+    <canvas id="cyber-canvas" class="fixed inset-0 z-0 opacity-40 pointer-events-none"></canvas>
+
+    <header id="main-header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-[#03140e]/80 backdrop-blur-md border-b border-[#2eee8b]/20">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between" aria-label="Main Navigation">
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-[#059669] to-[#2eee8b] flex items-center justify-center text-[#03140e] shadow-lg shadow-[#2eee8b]/30 group-hover:scale-110 transition-transform">
+                    <i class="fa-solid fa-house-chimney-window font-bold text-xl"></i>
+                </div>
+                <div>
+                    <span class="text-xl font-bold tracking-tight text-white block leading-none font-tech">TERATAK BARI</span>
+                    <span class="text-[10px] font-bold text-[#2eee8b] tracking-widest uppercase flex items-center gap-1 mt-0.5">
+                        <span class="w-1.5 h-1.5 rounded-full bg-[#2eee8b] animate-ping"></span> Beach & Eco Homestay
+                    </span>
+                </div>
+            </a>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center gap-8 text-xs font-bold uppercase tracking-wider text-slate-300">
+                <a href="#kelebihan" class="hover:text-[#2eee8b] transition-colors flex items-center gap-1.5"><i class="fa-solid fa-shield-halved text-[#2eee8b] text-[10px]"></i> Keistimewaan</a>
+                <a href="#pilihan-bilik" class="hover:text-[#2eee8b] transition-colors flex items-center gap-1.5"><i class="fa-solid fa-bed text-[#2eee8b] text-[10px]"></i> Pilihan Bilik</a>
+                <a href="#tarikan" class="hover:text-[#2eee8b] transition-colors flex items-center gap-1.5"><i class="fa-solid fa-compass text-[#2eee8b] text-[10px]"></i> Kawasan Sekitar</a>
+                <a href="#galeri" class="hover:text-[#2eee8b] transition-colors flex items-center gap-1.5"><i class="fa-solid fa-images text-[#2eee8b] text-[10px]"></i> Galeri Slider</a>
+                <a href="#ulasan" class="hover:text-[#2eee8b] transition-colors flex items-center gap-1.5"><i class="fa-solid fa-comments text-[#2eee8b] text-[10px]"></i> Ulasan Tetamu</a>
+                <a href="#faq" class="hover:text-[#2eee8b] transition-colors flex items-center gap-1.5"><i class="fa-solid fa-circle-question text-[#2eee8b] text-[10px]"></i> FAQ</a>
+            </div>
+
+            <!-- CTA Button Header -->
+            <div class="hidden md:flex items-center gap-3">
+                <a href="https://wa.me/60123456789?text=Hai%20Teratak%20Bari,%20saya%20nak%20tanya%20kekosongan%20homestay" target="_blank" rel="noopener" class="px-5 py-2.5 rounded-xl text-[#2eee8b] bg-[#08261b] hover:bg-[#0c3828] border border-[#2eee8b]/40 font-bold text-xs uppercase tracking-wider transition-all flex items-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-base text-[#2eee8b]"></i>
+                    <span>Tanya Am</span>
+                </a>
+                <a href="#semak-tarikh" class="px-5 py-2.5 rounded-xl btn-futuristic text-[#03140e] font-extrabold text-xs uppercase tracking-wider">
+                    Tempah Sekarang
+                </a>
+            </div>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button id="mobile-menu-btn" aria-label="Open Navigation Menu" class="md:hidden p-2 text-[#2eee8b] focus:outline-none">
+                <i class="fa-solid fa-bars text-2xl"></i>
+            </button>
+        </nav>
+
+        <!-- Mobile Drawer -->
+        <div id="mobile-menu" class="hidden md:hidden bg-[#03140e]/95 backdrop-blur-xl border-b border-[#2eee8b]/30 px-6 pt-4 pb-6 space-y-4 shadow-2xl">
+            <a href="#kelebihan" class="block py-2 text-slate-200 font-semibold hover:text-[#2eee8b] border-b border-white/5">Keistimewaan</a>
+            <a href="#pilihan-bilik" class="block py-2 text-slate-200 font-semibold hover:text-[#2eee8b] border-b border-white/5">Pilihan Bilik</a>
+            <a href="#tarikan" class="block py-2 text-slate-200 font-semibold hover:text-[#2eee8b] border-b border-white/5">Kawasan Sekitar</a>
+            <a href="#galeri" class="block py-2 text-slate-200 font-semibold hover:text-[#2eee8b] border-b border-white/5">Galeri Foto</a>
+            <a href="#ulasan" class="block py-2 text-slate-200 font-semibold hover:text-[#2eee8b] border-b border-white/5">Ulasan Tetamu</a>
+            <a href="#faq" class="block py-2 text-slate-200 font-semibold hover:text-[#2eee8b]">FAQ</a>
+            <div class="pt-2 flex flex-col gap-3">
+                <a href="#semak-tarikh" class="w-full text-center py-3 rounded-xl btn-futuristic text-[#03140e] font-extrabold text-sm uppercase tracking-wider">Semak Kekosongan</a>
+                <a href="https://wa.me/60123456789?text=Hai%20Teratak%20Bari,%20saya%20nak%20tanya%20kekosongan%20homestay" target="_blank" rel="noopener" class="w-full text-center py-3 rounded-xl bg-[#08261b] border border-[#2eee8b]/40 text-[#2eee8b] font-bold text-sm flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg"></i> WhatsApp Kami Direct
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+    <section class="relative min-h-screen pt-28 pb-20 flex items-center justify-center overflow-hidden">
+        <!-- Background Overlay Grid -->
+        <div class="absolute inset-0 z-0 opacity-20 bg-[radial-gradient(#2eee8b_1px,transparent_1px)] [background-size:24px_24px]"></div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left Column: Copywriting -->
+                <div class="lg:col-span-7 text-left space-y-6">
+                    
+                    <!-- Trust / Urgency Badge -->
+                    <div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-[#08261b] border border-[#2eee8b]/40 text-[#2eee8b] text-xs font-bold tracking-wider uppercase backdrop-blur-md">
+                        <span class="flex h-2.5 w-2.5 rounded-full bg-[#2eee8b] animate-ping"></span>
+                        <i class="fa-solid fa-star text-white"></i>
+                        <span>Homestay 5-Bintang Pilihan Utama di Bari Kecil, Setiu</span>
+                    </div>
+
+                    <!-- Main Headline -->
+                    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black text-white leading-tight">
+                        Bercuti Dengan Tenang Dalam Suasana <span class="text-[#2eee8b] font-tech neon-text-glow">Pantai & Desa</span> Terengganu.
+                    </h1>
+
+                    <!-- Sub-headline -->
+                    <p class="text-base sm:text-lg text-slate-300 leading-relaxed font-normal max-w-2xl">
+                        Rasai keselesaan penginapan seperti di rumah sendiri berhampiran <strong class="text-white">Pantai Bari Kecil</strong>, <strong class="text-white">Jeti Merang (Redang)</strong>, dan ekosistem menawan <strong class="text-white">Setiu Wetlands</strong>. Sesuai untuk percutian keluarga, hari keluarga (<em>family day</em>), dan rombongan.
+                    </p>
+
+                    <!-- Feature Highlights Pills -->
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2 text-xs sm:text-sm text-slate-200">
+                        <div class="flex items-center gap-2 bg-[#08261b]/60 p-2.5 rounded-xl border border-[#2eee8b]/20">
+                            <i class="fa-solid fa-circle-check text-[#2eee8b]"></i>
+                            <span>2 Minit ke Pantai Bari</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-[#08261b]/60 p-2.5 rounded-xl border border-[#2eee8b]/20">
+                            <i class="fa-solid fa-circle-check text-[#2eee8b]"></i>
+                            <span>Kolam Renang Privasi</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-[#08261b]/60 p-2.5 rounded-xl border border-[#2eee8b]/20">
+                            <i class="fa-solid fa-circle-check text-[#2eee8b]"></i>
+                            <span>Kawasan BBQ Luas</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-[#08261b]/60 p-2.5 rounded-xl border border-[#2eee8b]/20">
+                            <i class="fa-solid fa-circle-check text-[#2eee8b]"></i>
+                            <span>Aircond Semua Bilik</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-[#08261b]/60 p-2.5 rounded-xl border border-[#2eee8b]/20">
+                            <i class="fa-solid fa-circle-check text-[#2eee8b]"></i>
+                            <span>Dapur Lengkap Memasak</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-[#08261b]/60 p-2.5 rounded-xl border border-[#2eee8b]/20">
+                            <i class="fa-solid fa-circle-check text-[#2eee8b]"></i>
+                            <span>Parkir Percuma (5-8 Kereta)</span>
+                        </div>
+                    </div>
+
+                    <!-- Social Proof Avatar Group -->
+                    <div class="pt-4 flex flex-wrap items-center gap-4 text-slate-300 text-xs sm:text-sm">
+                        <div class="flex -space-x-2">
+                            <img class="inline-block h-10 w-10 rounded-full ring-2 ring-[#2eee8b] object-cover" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop" alt="Tetamu Homestay 1">
+                            <img class="inline-block h-10 w-10 rounded-full ring-2 ring-[#2eee8b] object-cover" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop" alt="Tetamu Homestay 2">
+                            <img class="inline-block h-10 w-10 rounded-full ring-2 ring-[#2eee8b] object-cover" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop" alt="Tetamu Homestay 3">
+                            <img class="inline-block h-10 w-10 rounded-full ring-2 ring-[#2eee8b] object-cover" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop" alt="Tetamu Homestay 4">
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-1 text-[#2eee8b]">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span class="font-bold text-white ml-1 font-tech">4.9/5</span>
+                            </div>
+                            <p>Lebih <strong class="text-[#2eee8b]">350+ Keluarga</strong> Telah Menginap Puas Hati!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Interactive Booking Card with Real-time Countdown Timer -->
+                <div class="lg:col-span-5" id="semak-tarikh">
+                    <div class="glass-futuristic hud-box rounded-3xl p-6 sm:p-8 shadow-2xl relative">
+                        
+                        <!-- Realtime Countdown Timer Badge -->
+                        <div class="bg-gradient-to-r from-[#059669] to-[#2eee8b] text-[#03140e] text-xs font-black uppercase tracking-wider px-3.5 py-1.5 rounded-full w-full mb-4 flex items-center justify-between shadow-md">
+                            <span class="flex items-center gap-1.5"><i class="fa-solid fa-clock"></i> Promosi Hujung Minggu:</span>
+                            <span id="countdown-timer" class="font-tech text-xs tracking-widest bg-[#03140e] text-[#2eee8b] px-2 py-0.5 rounded border border-[#2eee8b]/40">05h 24m 12s</span>
+                        </div>
+
+                        <h2 class="text-2xl font-black text-white font-tech mb-1">Semak Kekosongan Tarikh</h2>
+                        <p class="text-xs text-slate-300 mb-6">Pilih tarikh dan penginapan untuk dapatkan pengesahan pantas.</p>
+
+                        <form id="quick-booking-form" class="space-y-4">
+                            <!-- Input Nama Tetamu -->
+                            <div>
+                                <label for="guest-name" class="block text-[11px] font-bold text-[#2eee8b] uppercase mb-1">Nama Penuh Anda</label>
+                                <input type="text" id="guest-name" placeholder="Contoh: Encik Ahmad" required class="w-full bg-[#03140e] border border-[#2eee8b]/40 rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-white focus:ring-2 focus:ring-[#2eee8b] focus:outline-none">
+                            </div>
+
+                            <!-- Tarikh Check-In & Check-Out -->
+                            <div class="grid grid-cols-2 gap-3">
+                                <div>
+                                    <label for="checkin-date" class="block text-[11px] font-bold text-[#2eee8b] uppercase mb-1">Tarikh Masuk</label>
+                                    <div class="relative">
+                                        <input type="date" id="checkin-date" required class="w-full bg-[#03140e] border border-[#2eee8b]/40 rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-white focus:ring-2 focus:ring-[#2eee8b] focus:outline-none">
+                                    </div>
+                                </div>
+                                <div>
+                                    <label for="checkout-date" class="block text-[11px] font-bold text-[#2eee8b] uppercase mb-1">Tarikh Keluar</label>
+                                    <div class="relative">
+                                        <input type="date" id="checkout-date" required class="w-full bg-[#03140e] border border-[#2eee8b]/40 rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-white focus:ring-2 focus:ring-[#2eee8b] focus:outline-none">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Jenis Penginapan -->
+                            <div>
+                                <label for="room-type" class="block text-[11px] font-bold text-[#2eee8b] uppercase mb-1">Pilihan Unit Homestay</label>
+                                <select id="room-type" class="w-full bg-[#03140e] border border-[#2eee8b]/40 rounded-xl px-3.5 py-2.5 text-xs sm:text-sm font-semibold text-white focus:ring-2 focus:ring-[#2eee8b] focus:outline-none">
+                                    <option value="Villa Perdana Pool (3 Bilik, 10-12 Pax)" data-price="380">Villa Perdana Pool (3 Bilik, 10-12 Pax) - RM 380/mlm</option>
+                                    <option value="Chalet Kayu Warisan (1 Bilik, 2-4 Pax)" data-price="190">Chalet Kayu Warisan (1 Bilik, 2-4 Pax) - RM 190/mlm</option>
+                                    <option value="Banglo Eksekutif Bari (4 Bilik, 15-20 Pax)" data-price="490">Banglo Eksekutif Bari (4 Bilik, 15-20 Pax) - RM 490/mlm</option>
+                                </select>
+                            </div>
+
+                            <!-- Bilangan Tetamu -->
+                            <div class="grid grid-cols-2 gap-3">
+                                <div>
+                                    <label for="adult-count" class="block text-[11px] font-bold text-[#2eee8b] uppercase mb-1">Tetamu Dewasa</label>
+                                    <select id="adult-count" class="w-full bg-[#03140e] border border-[#2eee8b]/40 rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-white focus:ring-2 focus:ring-[#2eee8b] focus:outline-none">
+                                        <option value="2">2 Orang</option>
+                                        <option value="4" selected>4 Orang</option>
+                                        <option value="8">8 Orang</option>
+                                        <option value="12">12+ Orang</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="child-count" class="block text-[11px] font-bold text-[#2eee8b] uppercase mb-1">Kanak-kanak</label>
+                                    <select id="child-count" class="w-full bg-[#03140e] border border-[#2eee8b]/40 rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-white focus:ring-2 focus:ring-[#2eee8b] focus:outline-none">
+                                        <option value="0">Tiada</option>
+                                        <option value="2" selected>2 Orang</option>
+                                        <option value="5">5+ Orang</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Price Estimation Live Display -->
+                            <div class="bg-[#03140e]/90 border border-[#2eee8b]/40 rounded-xl p-4 flex items-center justify-between shadow-inner">
+                                <div>
+                                    <span class="text-[11px] text-slate-400 block font-medium uppercase tracking-wider">Anggaran Jumlah:</span>
+                                    <span class="text-xs text-[#2eee8b] font-bold" id="night-count-label">1 Malam</span>
+                                </div>
+                                <div class="text-right">
+                                    <span class="text-2xl sm:text-3xl font-black text-[#2eee8b] font-tech neon-text-glow" id="estimated-price">RM 380</span>
+                                </div>
+                            </div>
+
+                            <!-- Form Submit Button -> Opens Confirmation Screen -->
+                            <button type="submit" class="w-full py-4 px-6 rounded-xl btn-futuristic text-[#03140e] font-black text-sm uppercase tracking-wider flex items-center justify-center gap-3">
+                                <i class="fa-solid fa-paper-plane text-xl"></i>
+                                <span>Teruskan Untuk Semakan & WhatsApp</span>
+                            </button>
+
+                            <p class="text-[11px] text-center text-slate-400 flex items-center justify-center gap-1.5 pt-1">
+                                <i class="fa-solid fa-shield-halved text-[#2eee8b]"></i>
+                                <span>Tanpa caj tersembunyi. Pengesahan pantas dalam 5 minit.</span>
+                            </p>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="kelebihan" class="py-20 relative bg-[#03140e]/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-[#2eee8b] font-extrabold text-xs uppercase tracking-widest bg-[#08261b] px-3.5 py-1.5 rounded-full border border-[#2eee8b]/40">Kenapa Pilih Kami</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-white mt-3 font-tech">Pengalaman Bercuti Yang Tak Dapat Dilupakan di Bari Kecil</h2>
+                <p class="text-slate-300 mt-3 text-sm sm:text-base">Kami bukan sekadar penginapan biasa, tetapi tempat mencipta kenangan indah bersama keluarga dan insan tersayang.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="glass-futuristic-card rounded-2xl p-6 border border-[#2eee8b]/20 hover:border-[#2eee8b]/60 transition-all">
+                    <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#059669] to-[#2eee8b] text-[#03140e] flex items-center justify-center text-2xl mb-5 shadow-lg shadow-[#2eee8b]/20">
+                        <i class="fa-solid fa-umbrella-beach"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white font-tech mb-2">Pesisir Pantai Dekat</h3>
+                    <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">Hanya 2 minit berjalan kaki ke Pantai Bari. Nikmati angin laut malam dan pemandangan matahari terbit yang memukau.</p>
+                </div>
+
+                <div class="glass-futuristic-card rounded-2xl p-6 border border-[#2eee8b]/20 hover:border-[#2eee8b]/60 transition-all">
+                    <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#059669] to-[#2eee8b] text-[#03140e] flex items-center justify-center text-2xl mb-5 shadow-lg shadow-[#2eee8b]/20">
+                        <i class="fa-solid fa-water-ladder"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white font-tech mb-2">Kolam Renang Privasi</h3>
+                    <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">Kolam renang persendirian untuk keluarga anda berseronok tanpa perlu berkongsi dengan orang luar.</p>
+                </div>
+
+                <div class="glass-futuristic-card rounded-2xl p-6 border border-[#2eee8b]/20 hover:border-[#2eee8b]/60 transition-all">
+                    <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#059669] to-[#2eee8b] text-[#03140e] flex items-center justify-center text-2xl mb-5 shadow-lg shadow-[#2eee8b]/20">
+                        <i class="fa-solid fa-fire-burner"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white font-tech mb-2">Kemudahan BBQ & Dapur</h3>
+                    <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">Disediakan pit BBQ luar rumah, dapur gas lengkap, peti ais, dan perkakas memasak untuk makan malam santai.</p>
+                </div>
+
+                <div class="glass-futuristic-card rounded-2xl p-6 border border-[#2eee8b]/20 hover:border-[#2eee8b]/60 transition-all">
+                    <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#059669] to-[#2eee8b] text-[#03140e] flex items-center justify-center text-2xl mb-5 shadow-lg shadow-[#2eee8b]/20">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white font-tech mb-2">Lokasi Teramat Strategik</h3>
+                    <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">Berhampiran Jeti Merang ke Pulau Redang (10 minit), kedai Celup Tepung Penarik, dan pelancongan Setiu Wetlands.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pilihan-bilik" class="py-20 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-[#2eee8b] font-extrabold text-xs uppercase tracking-widest bg-[#08261b] px-3.5 py-1.5 rounded-full border border-[#2eee8b]/40">Penginapan Disediakan</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-white mt-3 font-tech">Pilih Unit Homestay Ikut Keperluan Anda</h2>
+                <p class="text-slate-300 mt-3 text-sm sm:text-base">Daripada pasangan hingga rombongan besar hari keluarga, kami ada ruang selesa untuk semua.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-8">
+                <!-- Room Card 1 -->
+                <div class="glass-futuristic-card rounded-3xl overflow-hidden border border-[#2eee8b]/30 flex flex-col group">
+                    <div class="relative h-64 holo-image-container overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80" alt="Villa Perdana Pool Teratak Bari" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div class="absolute top-4 left-4 bg-gradient-to-r from-[#059669] to-[#2eee8b] text-[#03140e] text-xs font-black px-3 py-1 rounded-full shadow-lg">
+                            Paling Popular ⭐
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between mb-2">
+                                <h3 class="text-2xl font-bold text-white font-tech">Villa Perdana Pool</h3>
+                                <span class="text-[11px] font-bold px-2.5 py-1 bg-[#08261b] text-[#2eee8b] rounded-lg border border-[#2eee8b]/30">3 Bilik Tidur</span>
+                            </div>
+                            <p class="text-slate-300 text-xs sm:text-sm mb-4">Mempunyai kolam renang persendirian, ruang tamu luas, dan halaman berpagar selamat untuk anak-anak.</p>
+                            
+                            <ul class="space-y-2 text-xs font-semibold text-slate-300 mb-6">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-users text-[#2eee8b] w-4"></i> Muat 10 - 12 Orang Tetamu</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-bed text-[#2eee8b] w-4"></i> 3 Katil King + 2 Katil Single</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-shower text-[#2eee8b] w-4"></i> 2 Bilik Air (Water Heater)</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-wifi text-[#2eee8b] w-4"></i> High-Speed Wi-Fi & Smart TV</li>
+                            </ul>
+                        </div>
+
+                        <div class="pt-4 border-t border-white/10 flex items-center justify-between">
+                            <div>
+                                <span class="text-[10px] text-slate-400 block uppercase tracking-wider">Harga Bermula</span>
+                                <span class="text-2xl font-black text-[#2eee8b] font-tech">RM 380 <span class="text-xs font-normal text-slate-400">/malam</span></span>
+                            </div>
+                            <button onclick="selectRoom('Villa Perdana Pool (3 Bilik, 10-12 Pax)')" class="px-5 py-2.5 rounded-xl btn-futuristic text-[#03140e] font-extrabold text-xs uppercase tracking-wider">
+                                Pilih Unit
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Room Card 2 -->
+                <div class="glass-futuristic-card rounded-3xl overflow-hidden border border-[#2eee8b]/30 flex flex-col group">
+                    <div class="relative h-64 holo-image-container overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=800&q=80" alt="Chalet Kayu Warisan Teratak Bari" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div class="absolute top-4 left-4 bg-[#2eee8b] text-[#03140e] text-xs font-black px-3 py-1 rounded-full shadow-lg">
+                            Sesuai Pasangan / Kecil
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between mb-2">
+                                <h3 class="text-2xl font-bold text-white font-tech">Chalet Kayu Warisan</h3>
+                                <span class="text-[11px] font-bold px-2.5 py-1 bg-[#08261b] text-[#2eee8b] rounded-lg border border-[#2eee8b]/30">1 Studio Bilik</span>
+                            </div>
+                            <p class="text-slate-300 text-xs sm:text-sm mb-4">Seni bina kayu seni Melayu Terengganu yang sejuk dan damai, dikelilingi pokok kelapa desa.</p>
+                            
+                            <ul class="space-y-2 text-xs font-semibold text-slate-300 mb-6">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-users text-[#2eee8b] w-4"></i> Muat 2 - 4 Orang Tetamu</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-bed text-[#2eee8b] w-4"></i> 1 Katil Queen + Sofa Bed</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-snowflake text-[#2eee8b] w-4"></i> Penghawa Dingin Full Aircond</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-mug-hot text-[#2eee8b] w-4"></i> Minibar & Kemudahan Teh/Kopi</li>
+                            </ul>
+                        </div>
+
+                        <div class="pt-4 border-t border-white/10 flex items-center justify-between">
+                            <div>
+                                <span class="text-[10px] text-slate-400 block uppercase tracking-wider">Harga Bermula</span>
+                                <span class="text-2xl font-black text-[#2eee8b] font-tech">RM 190 <span class="text-xs font-normal text-slate-400">/malam</span></span>
+                            </div>
+                            <button onclick="selectRoom('Chalet Kayu Warisan (1 Bilik, 2-4 Pax)')" class="px-5 py-2.5 rounded-xl btn-futuristic text-[#03140e] font-extrabold text-xs uppercase tracking-wider">
+                                Pilih Unit
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Room Card 3 -->
+                <div class="glass-futuristic-card rounded-3xl overflow-hidden border border-[#2eee8b]/30 flex flex-col group">
+                    <div class="relative h-64 holo-image-container overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=80" alt="Banglo Eksekutif Bari Teratak Bari" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div class="absolute top-4 left-4 bg-gradient-to-r from-[#059669] to-[#2eee8b] text-[#03140e] text-xs font-black px-3 py-1 rounded-full shadow-lg">
+                            Untuk Family Day
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between mb-2">
+                                <h3 class="text-2xl font-bold text-white font-tech">Banglo Eksekutif Bari</h3>
+                                <span class="text-[11px] font-bold px-2.5 py-1 bg-[#08261b] text-[#2eee8b] rounded-lg border border-[#2eee8b]/30">4 Bilik Tidur</span>
+                            </div>
+                            <p class="text-slate-300 text-xs sm:text-sm mb-4">Rumah berkembar mewah dengan beranda luar yang luas, kawasan BBQ besar dan ruang makan luar.</p>
+                            
+                            <ul class="space-y-2 text-xs font-semibold text-slate-300 mb-6">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-users text-[#2eee8b] w-4"></i> Muat 15 - 20 Orang Tetamu</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-bed text-[#2eee8b] w-4"></i> 4 Bilik Tidur + 3 Bilik Air</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-fire text-[#2eee8b] w-4"></i> Set BBQ Pit Besar & Sukaneka</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-utensils text-[#2eee8b] w-4"></i> Dapur Basah & Kering Lengkap</li>
+                            </ul>
+                        </div>
+
+                        <div class="pt-4 border-t border-white/10 flex items-center justify-between">
+                            <div>
+                                <span class="text-[10px] text-slate-400 block uppercase tracking-wider">Harga Bermula</span>
+                                <span class="text-2xl font-black text-[#2eee8b] font-tech">RM 490 <span class="text-xs font-normal text-slate-400">/malam</span></span>
+                            </div>
+                            <button onclick="selectRoom('Banglo Eksekutif Bari (4 Bilik, 15-20 Pax)')" class="px-5 py-2.5 rounded-xl btn-futuristic text-[#03140e] font-extrabold text-xs uppercase tracking-wider">
+                                Pilih Unit
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tarikan" class="py-20 bg-[#03140e]/90 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-5 space-y-6">
+                    <span class="text-[#2eee8b] font-extrabold text-xs uppercase tracking-widest bg-[#08261b] px-3.5 py-1.5 rounded-full border border-[#2eee8b]/40">Destinasi Menarik Sekitar</span>
+                    <h2 class="text-3xl sm:text-4xl font-black text-white font-tech">Lokasi Strategik Untuk Meneroka Setiu & Terengganu</h2>
+                    <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+                        Penginapan di <strong class="text-white">Bari Kecil</strong> memudahkan anda bergerak ke port makan popular, tempat percutian pulau, dan tempat rekreasi semula jadi.
+                    </p>
+
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-4 p-4 rounded-2xl glass-futuristic-card border border-[#2eee8b]/20">
+                            <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-[#059669] to-[#2eee8b] text-[#03140e] flex items-center justify-center shrink-0 font-extrabold font-tech">1</div>
+                            <div>
+                                <h3 class="font-bold text-white text-sm">Kedai Makanan Laut Celup Tepung Penarik (5 Minit)</h3>
+                                <p class="text-xs text-slate-300 mt-0.5">Nikmati sotong, udang, dan ikan celup tepung segar tepi pantai yang amat popular.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4 p-4 rounded-2xl glass-futuristic-card border border-[#2eee8b]/20">
+                            <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-[#059669] to-[#2eee8b] text-[#03140e] flex items-center justify-center shrink-0 font-extrabold font-tech">2</div>
+                            <div>
+                                <h3 class="font-bold text-white text-sm">Jeti Merang ke Pulau Redang & Lang Tengah (10 Minit)</h3>
+                                <p class="text-xs text-slate-300 mt-0.5">Sangat sesuai sebagai penginapan transit sebelum dan selepas <em>day trip</em> ke pulau-pulau kecantikan Terengganu.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4 p-4 rounded-2xl glass-futuristic-card border border-[#2eee8b]/20">
+                            <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-[#059669] to-[#2eee8b] text-[#03140e] flex items-center justify-center shrink-0 font-extrabold font-tech">3</div>
+                            <div>
+                                <h3 class="font-bold text-white text-sm">Setiu Wetlands Eco Tour (12 Minit)</h3>
+                                <p class="text-xs text-slate-300 mt-0.5">Aktiviti menyusur sungai paya bakau, cari lokan, dan melawat pusat pemeliharaan tuntung laut.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7">
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="holo-image-container rounded-3xl overflow-hidden border border-[#2eee8b]/30">
+                            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80" alt="Pantai Bari Penarik Terengganu" class="h-52 sm:h-64 w-full object-cover hover:scale-105 transition-transform duration-500">
+                        </div>
+                        <div class="holo-image-container rounded-3xl overflow-hidden border border-[#2eee8b]/30 mt-6">
+                            <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=80" alt="Setiu Wetlands Eco Resort" class="h-52 sm:h-64 w-full object-cover hover:scale-105 transition-transform duration-500">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeri" class="py-20 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-[#2eee8b] font-extrabold text-xs uppercase tracking-widest bg-[#08261b] px-3.5 py-1.5 rounded-full border border-[#2eee8b]/40">Galeri Foto Interaktif</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-white mt-3 font-tech">Sudut Indah di Teratak Bari</h2>
+                <p class="text-slate-300 mt-2 text-xs sm:text-sm">Gunakan kawalan slider di bawah untuk melihat kawasan dan suasana persekitaran kami.</p>
+            </div>
+
+            <!-- Interactive Carousel / Slider Container -->
+            <div class="relative max-w-4xl mx-auto rounded-3xl overflow-hidden glass-futuristic border border-[#2eee8b]/40 shadow-2xl">
+                <div id="gallery-carousel" class="relative h-72 sm:h-96 w-full overflow-hidden">
+                    
+                    <div class="gallery-slide absolute inset-0 transition-opacity duration-700 opacity-100">
+                        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1000&q=80" alt="Bilik Utama Villa Bari" class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 inset-x-0 p-6 bg-gradient-to-t from-[#03140e] to-transparent">
+                            <h3 class="text-xl font-bold font-tech text-[#2eee8b]">Bilik Utama Deluxe</h3>
+                            <p class="text-xs text-slate-300">Katil empuk dengan pendingin aircond penuh & bilik air privasi.</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-slide absolute inset-0 transition-opacity duration-700 opacity-0 pointer-events-none">
+                        <img src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=1000&q=80" alt="Private Swimming Pool Teratak Bari" class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 inset-x-0 p-6 bg-gradient-to-t from-[#03140e] to-transparent">
+                            <h3 class="text-xl font-bold font-tech text-[#2eee8b]">Kolam Renang Privasi</h3>
+                            <p class="text-xs text-slate-300">Khas untuk anda dan keluarga mandi-manda sepuas hati.</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-slide absolute inset-0 transition-opacity duration-700 opacity-0 pointer-events-none">
+                        <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1000&q=80" alt="Dapur Memasak Lengkap Homestay" class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 inset-x-0 p-6 bg-gradient-to-t from-[#03140e] to-transparent">
+                            <h3 class="text-xl font-bold font-tech text-[#2eee8b]">Dapur Memasak & Pit BBQ</h3>
+                            <p class="text-xs text-slate-300">Perkakas lengkap untuk memasak hidangan laut segar.</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-slide absolute inset-0 transition-opacity duration-700 opacity-0 pointer-events-none">
+                        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80" alt="Pantai Bari Kecil Setiu" class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 inset-x-0 p-6 bg-gradient-to-t from-[#03140e] to-transparent">
+                            <h3 class="text-xl font-bold font-tech text-[#2eee8b]">Pantai Bari (2 Minit Berjalan)</h3>
+                            <p class="text-xs text-slate-300">Nikmati pemandangan matahari terbit dan deruan ombak.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Carousel Controls -->
+                <button id="prev-gallery" aria-label="Previous Slide" class="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-[#03140e]/80 border border-[#2eee8b]/50 text-[#2eee8b] flex items-center justify-center hover:bg-[#2eee8b] hover:text-[#03140e] transition-all">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <button id="next-gallery" aria-label="Next Slide" class="absolute right-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-[#03140e]/80 border border-[#2eee8b]/50 text-[#2eee8b] flex items-center justify-center hover:bg-[#2eee8b] hover:text-[#03140e] transition-all">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+
+                <!-- Dots Indicators -->
+                <div id="gallery-dots" class="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2">
+                    <button class="w-3 h-3 rounded-full bg-[#2eee8b] transition-all" aria-label="Slide 1"></button>
+                    <button class="w-3 h-3 rounded-full bg-white/40 transition-all" aria-label="Slide 2"></button>
+                    <button class="w-3 h-3 rounded-full bg-white/40 transition-all" aria-label="Slide 3"></button>
+                    <button class="w-3 h-3 rounded-full bg-white/40 transition-all" aria-label="Slide 4"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ulasan" class="py-20 bg-[#03140e]/80 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-[#2eee8b] font-extrabold text-xs uppercase tracking-widest bg-[#08261b] px-3.5 py-1.5 rounded-full border border-[#2eee8b]/40">Ulasan Tetamu</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-white mt-3 font-tech">Apa Kata Tetamu Yang Pernah Menginap?</h2>
+                <p class="text-slate-300 mt-2 text-xs sm:text-sm">Kepuasan tetamu adalah keutamaan kami di Teratak Bari.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="glass-futuristic-card p-6 rounded-3xl border border-[#2eee8b]/20 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-1 text-[#2eee8b] mb-4">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-300 text-xs sm:text-sm italic leading-relaxed mb-6">
+                            "Sangat puas hati! Kolam renang bersih sangat, budak-budak suka. Malam kami buat BBQ ikan segar beli kat jeti. Homestay dekat sangat dengan kedai celup tepung Penarik."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-4 border-t border-white/10">
+                        <div class="w-10 h-10 rounded-full bg-gradient-to-br from-[#059669] to-[#2eee8b] text-[#03140e] font-extrabold flex items-center justify-center font-tech">AH</div>
+                        <div>
+                            <h3 class="font-bold text-white text-sm">Ahmad Haziq</h3>
+                            <span class="text-xs text-slate-400">Hari Keluarga (Kuala Lumpur)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-futuristic-card p-6 rounded-3xl border border-[#2eee8b]/20 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-1 text-[#2eee8b] mb-4">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-300 text-xs sm:text-sm italic leading-relaxed mb-6">
+                            "Owner peramah giler dan bertimbang rasa. Rumah memang bersih, aircond sejuk. Kami stay sini sebab esoknya nak naik bot kat Jeti Merang pergi Redang. Memang berbaloi!"
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-4 border-t border-white/10">
+                        <div class="w-10 h-10 rounded-full bg-gradient-to-br from-[#059669] to-[#2eee8b] text-[#03140e] font-extrabold flex items-center justify-center font-tech">SN</div>
+                        <div>
+                            <h3 class="font-bold text-white text-sm">Siti Noraini</h3>
+                            <span class="text-xs text-slate-400">Percutian Rombongan (Kuantan)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-futuristic-card p-6 rounded-3xl border border-[#2eee8b]/20 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-1 text-[#2eee8b] mb-4">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-300 text-xs sm:text-sm italic leading-relaxed mb-6">
+                            "Suasana kampung tepi pantai yang sangat aman. Bebas dari bising bandar. Kemudahan dapur lengkap sangat, tak payah pening nak bawa kuali atau pinggan."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-4 border-t border-white/10">
+                        <div class="w-10 h-10 rounded-full bg-gradient-to-br from-[#059669] to-[#2eee8b] text-[#03140e] font-extrabold flex items-center justify-center font-tech">MR</div>
+                        <div>
+                            <h3 class="font-bold text-white text-sm">Muhammad Razak</h3>
+                            <span class="text-xs text-slate-400">Bercuti Bersama Keluarga (Kota Bharu)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="py-20 relative">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-12">
+                <span class="text-[#2eee8b] font-extrabold text-xs uppercase tracking-widest bg-[#08261b] px-3.5 py-1.5 rounded-full border border-[#2eee8b]/40">Musykil?</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-white mt-3 font-tech">Soalan-Soalan Lazim (FAQ)</h2>
+            </div>
+
+            <div class="space-y-4" id="faq-accordion">
+                <div class="border border-[#2eee8b]/30 rounded-2xl overflow-hidden glass-futuristic">
+                    <button onclick="toggleFaq(1)" class="w-full text-left p-5 font-bold text-white bg-[#08261b]/50 hover:bg-[#08261b] flex items-center justify-between transition-colors">
+                        <span>Pukul berapa waktu Check-in & Check-out?</span>
+                        <i id="faq-icon-1" class="fa-solid fa-chevron-down text-[#2eee8b] transition-transform"></i>
+                    </button>
+                    <div id="faq-content-1" class="hidden p-5 text-xs sm:text-sm text-slate-300 border-t border-white/10 leading-relaxed">
+                        Waktu Check-in adalah bermula jam <strong class="text-white">3:00 Petang</strong> dan waktu Check-out adalah pada jam <strong class="text-white">12:00 Tengah Hari</strong>. Sekiranya anda memerlukan <em>early check-in</em>, sila maklumkan awal kepada kami tertakluk kekosongan.
+                    </div>
+                </div>
+
+                <div class="border border-[#2eee8b]/30 rounded-2xl overflow-hidden glass-futuristic">
+                    <button onclick="toggleFaq(2)" class="w-full text-left p-5 font-bold text-white bg-[#08261b]/50 hover:bg-[#08261b] flex items-center justify-between transition-colors">
+                        <span>Bagaimanakah prosedur pembayaran & deposit?</span>
+                        <i id="faq-icon-2" class="fa-solid fa-chevron-down text-[#2eee8b] transition-transform"></i>
+                    </button>
+                    <div id="faq-content-2" class="hidden p-5 text-xs sm:text-sm text-slate-300 border-t border-white/10 leading-relaxed">
+                        Deposit pengesahan sebanyak <strong class="text-white">RM 100/malam</strong> diperlukan untuk mengunci tarikh pilihan anda. Baki bayaran boleh dijelaskan secara dalam talian (online transfer) atau tunai semasa tarikh masuk.
+                    </div>
+                </div>
+
+                <div class="border border-[#2eee8b]/30 rounded-2xl overflow-hidden glass-futuristic">
+                    <button onclick="toggleFaq(3)" class="w-full text-left p-5 font-bold text-white bg-[#08261b]/50 hover:bg-[#08261b] flex items-center justify-between transition-colors">
+                        <span>Adakah kolam renang sesuai untuk kanak-kanak?</span>
+                        <i id="faq-icon-3" class="fa-solid fa-chevron-down text-[#2eee8b] transition-transform"></i>
+                    </button>
+                    <div id="faq-content-3" class="hidden p-5 text-xs sm:text-sm text-slate-300 border-t border-white/10 leading-relaxed">
+                        Ya, kolam renang kami direka dengan paras berperingkat khas yang mempunyai bahagian cetek bersesuaian untuk kanak-kanak dengan pemantauan ibu bapa.
+                    </div>
+                </div>
+
+                <div class="border border-[#2eee8b]/30 rounded-2xl overflow-hidden glass-futuristic">
+                    <button onclick="toggleFaq(4)" class="w-full text-left p-5 font-bold text-white bg-[#08261b]/50 hover:bg-[#08261b] flex items-center justify-between transition-colors">
+                        <span>Adakah perkakas memasak dan pit BBQ disediakan?</span>
+                        <i id="faq-icon-4" class="fa-solid fa-chevron-down text-[#2eee8b] transition-transform"></i>
+                    </button>
+                    <div id="faq-content-4" class="hidden p-5 text-xs sm:text-sm text-slate-300 border-t border-white/10 leading-relaxed">
+                        Ya, dapur kami lengkap dengan perkakas memasak, periuk nasi, cerek elektrik, dan peti ais. Set BBQ juga disediakan secara percuma (tetamu hanya perlu membawa arang sendiri).
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-gradient-to-r from-[#03140e] via-[#059669] to-[#03140e] text-white relative overflow-hidden border-y border-[#2eee8b]/40">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 space-y-6">
+            <h2 class="text-3xl sm:text-5xl font-black font-tech">Jangan Lepaskan Tarikh Impian Percutian Anda!</h2>
+            <p class="text-slate-200 text-sm sm:text-base max-w-2xl mx-auto">
+                Kekosongan pada hujung minggu dan cuti sekolah cepat dipenuhi. Semak tarikh anda sekarang dan dapatkan tawaran istimewa.
+            </p>
+
+            <div class="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#semak-tarikh" class="w-full sm:w-auto px-8 py-4 rounded-xl btn-futuristic text-[#03140e] font-black text-sm uppercase tracking-wider">
+                    Semak Kekosongan Sekarang
+                </a>
+                <a href="https://wa.me/60123456789?text=Hai,%20saya%20berminat%20nak%20tanya%20promosi%20Teratak%20Bari" target="_blank" rel="noopener" class="w-full sm:w-auto px-8 py-4 rounded-xl border-2 border-[#2eee8b] bg-[#08261b] hover:bg-[#2eee8b] text-[#2eee8b] hover:text-[#03140e] font-bold text-sm uppercase tracking-wider transition-all flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-xl"></i> Chat WhatsApp Direct
+                </a>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- Confirmation Modal View (Appears on Booking Form Submit) -->
+    <div id="confirmation-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-[#03140e]/90 backdrop-blur-xl">
+        <div class="glass-futuristic hud-box rounded-3xl p-6 sm:p-8 max-w-lg w-full border border-[#2eee8b]/50 shadow-2xl relative animate-pulse-glow">
+            <!-- Close Button -->
+            <button onclick="closeConfirmationModal()" class="absolute top-4 right-4 text-slate-400 hover:text-[#2eee8b] text-xl">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <!-- Success Icon -->
+            <div class="text-center space-y-3">
+                <div class="w-16 h-16 rounded-full bg-gradient-to-br from-[#059669] to-[#2eee8b] text-[#03140e] text-3xl font-black flex items-center justify-center mx-auto shadow-lg shadow-[#2eee8b]/40">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+                <h3 class="text-2xl font-black text-white font-tech">Pengesahan Tempahan</h3>
+                <p class="text-xs text-slate-300">Maklumat anda telah sedia! Sila semak perincian di bawah sebelum disambungkan ke WhatsApp.</p>
+            </div>
+
+            <!-- Booking Summary Box -->
+            <div class="mt-6 space-y-3 bg-[#03140e]/90 border border-[#2eee8b]/30 p-4 rounded-2xl text-xs sm:text-sm">
+                <div class="flex justify-between border-b border-white/10 pb-2">
+                    <span class="text-slate-400">No. Rujukan Tempahan:</span>
+                    <span id="confirm-ref" class="font-bold text-[#2eee8b] font-tech">TB-8942</span>
+                </div>
+                <div class="flex justify-between border-b border-white/10 pb-2">
+                    <span class="text-slate-400">Nama Tetamu:</span>
+                    <span id="confirm-name" class="font-bold text-white">Encik Ahmad</span>
+                </div>
+                <div class="flex justify-between border-b border-white/10 pb-2">
+                    <span class="text-slate-400">Pilihan Unit:</span>
+                    <span id="confirm-unit" class="font-bold text-white text-right max-w-[200px]">Villa Perdana Pool</span>
+                </div>
+                <div class="flex justify-between border-b border-white/10 pb-2">
+                    <span class="text-slate-400">Tarikh Menginap:</span>
+                    <span id="confirm-dates" class="font-bold text-[#2eee8b]">12/09 - 14/09 (2 Malam)</span>
+                </div>
+                <div class="flex justify-between border-b border-white/10 pb-2">
+                    <span class="text-slate-400">Bilangan Tetamu:</span>
+                    <span id="confirm-guests" class="font-bold text-white">4 Dewasa, 2 Kanak-kanak</span>
+                </div>
+                <div class="flex justify-between pt-1">
+                    <span class="text-slate-300 font-bold uppercase">Anggaran Jumlah:</span>
+                    <span id="confirm-price" class="text-xl font-black text-[#2eee8b] font-tech neon-text-glow">RM 760</span>
+                </div>
+            </div>
+
+            <!-- Modal Actions -->
+            <div class="mt-6 space-y-3">
+                <button id="send-whatsapp-btn" class="w-full py-4 px-6 rounded-xl btn-futuristic text-[#03140e] font-black text-sm uppercase tracking-wider flex items-center justify-center gap-3">
+                    <i class="fa-brands fa-whatsapp text-2xl"></i>
+                    <span>Hantar & Direct Ke WhatsApp</span>
+                </button>
+                <button onclick="closeConfirmationModal()" class="w-full py-2.5 text-xs text-slate-400 hover:text-white text-center">
+                    Ubah Maklumat Tempahan
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-[#020b08] text-slate-400 py-12 border-t border-[#2eee8b]/20 relative z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-4 gap-8 mb-12">
+            <div class="space-y-3">
+                <h3 class="text-white font-bold text-lg font-tech">Teratak Bari Homestay</h3>
+                <p class="text-xs text-slate-400 leading-relaxed">
+                    Penginapan percutian pesisir pantai & eco-resort terunggul di Bari Kecil, Setiu, Terengganu.
+                </p>
+                <div class="flex gap-3 text-lg text-slate-400 pt-2">
+                    <a href="#" aria-label="Facebook Page" class="hover:text-[#2eee8b] transition-colors"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" aria-label="Instagram Profile" class="hover:text-[#2eee8b] transition-colors"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="TikTok Account" class="hover:text-[#2eee8b] transition-colors"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <div>
+                <h4 class="text-white font-bold text-xs uppercase tracking-wider mb-4 font-tech">Pautan Pantas</h4>
+                <ul class="space-y-2 text-xs font-medium">
+                    <li><a href="#kelebihan" class="hover:text-[#2eee8b] transition-colors">Keistimewaan</a></li>
+                    <li><a href="#pilihan-bilik" class="hover:text-[#2eee8b] transition-colors">Jenis Bilik & Harga</a></li>
+                    <li><a href="#tarikan" class="hover:text-[#2eee8b] transition-colors">Tarikan Bari & Setiu</a></li>
+                    <li><a href="#galeri" class="hover:text-[#2eee8b] transition-colors">Galeri Foto</a></li>
+                    <li><a href="#faq" class="hover:text-[#2eee8b] transition-colors">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-white font-bold text-xs uppercase tracking-wider mb-4 font-tech">Hubungi Kami Direct</h4>
+                <ul class="space-y-2 text-xs">
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-phone text-[#2eee8b]"></i> +60 12-345 6789</li>
+                    <li class="flex items-center gap-2"><i class="fa-brands fa-whatsapp text-[#2eee8b]"></i> +60 12-345 6789</li>
+                    <li class="flex items-start gap-2"><i class="fa-solid fa-envelope text-[#2eee8b] mt-0.5"></i> tempahan@teratakbari.my</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-white font-bold text-xs uppercase tracking-wider mb-4 font-tech">Alamat Lokasi</h4>
+                <p class="text-xs text-slate-400 leading-relaxed mb-3">
+                    Jalan Pantai Bari Kecil, Kampung Bari Kecil, 21500 Setiu, Terengganu Darul Iman.
+                </p>
+                <a href="https://maps.google.com" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-xs font-bold text-[#2eee8b] hover:text-[#86efac]">
+                    <i class="fa-solid fa-location-arrow"></i> Buka di Google Maps
+                </a>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 border-t border-white/10 text-center text-xs text-slate-400">
+            © <script>document.write(new Date().getFullYear())</script> Teratak Bari Beach & Eco Homestay. Hak Cipta Terpelihara.
+        </div>
+    </footer>
+
+    <!-- Floating Bottom Bar for Mobile Conversion -->
+    <div class="fixed bottom-0 left-0 right-0 bg-[#03140e]/95 backdrop-blur-md border-t border-[#2eee8b]/30 p-3 z-40 md:hidden flex items-center justify-between shadow-2xl">
+        <div>
+            <span class="text-[10px] text-slate-400 block font-semibold uppercase tracking-wider">Bermula Dari</span>
+            <span class="text-lg font-black text-[#2eee8b] font-tech">RM 190<span class="text-xs font-normal text-slate-400">/mlm</span></span>
+        </div>
+        <a href="#semak-tarikh" class="py-2.5 px-5 btn-futuristic text-[#03140e] font-extrabold text-xs uppercase tracking-wider rounded-xl flex items-center gap-2 shadow-lg">
+            <i class="fa-brands fa-whatsapp text-base"></i>
+            <span>Tempah Segera</span>
+        </a>
+    </div>
+
+    <script>
+        // Background Cyber Zarah Animation Canvas
+        (function initCyberCanvas() {
+            const canvas = document.getElementById('cyber-canvas');
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
+
+            let width = (canvas.width = window.innerWidth);
+            let height = (canvas.height = window.innerHeight);
+
+            window.addEventListener('resize', () => {
+                width = canvas.width = window.innerWidth;
+                height = canvas.height = window.innerHeight;
+            });
+
+            const particles = [];
+            const particleCount = Math.min(Math.floor(width / 25), 50);
+
+            for (let i = 0; i < particleCount; i++) {
+                particles.push({
+                    x: Math.random() * width,
+                    y: Math.random() * height,
+                    vx: (Math.random() - 0.5) * 0.5,
+                    vy: (Math.random() - 0.5) * 0.5,
+                    radius: Math.random() * 2 + 1
+                });
+            }
+
+            function animateCanvas() {
+                ctx.clearRect(0, 0, width, height);
+
+                for (let i = 0; i < particles.length; i++) {
+                    for (let j = i + 1; j < particles.length; j++) {
+                        const dx = particles[i].x - particles[j].x;
+                        const dy = particles[i].y - particles[j].y;
+                        const dist = Math.sqrt(dx * dx + dy * dy);
+
+                        if (dist < 130) {
+                            ctx.beginPath();
+                            ctx.strokeStyle = `rgba(46, 238, 139, ${0.15 * (1 - dist / 130)})`;
+                            ctx.lineWidth = 0.8;
+                            ctx.moveTo(particles[i].x, particles[i].y);
+                            ctx.lineTo(particles[j].x, particles[j].y);
+                            ctx.stroke();
+                        }
+                    }
+                }
+
+                for (let i = 0; i < particles.length; i++) {
+                    const p = particles[i];
+                    p.x += p.vx;
+                    p.y += p.vy;
+
+                    if (p.x < 0 || p.x > width) p.vx *= -1;
+                    if (p.y < 0 || p.y > height) p.vy *= -1;
+
+                    ctx.beginPath();
+                    ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+                    ctx.fillStyle = 'rgba(46, 238, 139, 0.6)';
+                    ctx.fill();
+                }
+
+                requestAnimationFrame(animateCanvas);
+            }
+
+            animateCanvas();
+        })();
+
+        // Interactive Cursor Light Follower
+        const cursor = document.getElementById('cyber-cursor');
+        if (cursor) {
+            document.addEventListener('mousemove', (e) => {
+                cursor.style.left = e.clientX + 'px';
+                cursor.style.top = e.clientY + 'px';
+            });
+        }
+
+        // Live Countdown Urgency Timer Logic
+        (function initCountdownTimer() {
+            let totalSeconds = 5 * 3600 + 24 * 60 + 12; // 5 hours 24 mins 12 secs default
+            const timerElem = document.getElementById('countdown-timer');
+
+            setInterval(() => {
+                if (totalSeconds <= 0) totalSeconds = 24 * 3600;
+                totalSeconds--;
+
+                const hours = Math.floor(totalSeconds / 3600);
+                const minutes = Math.floor((totalSeconds % 3600) / 60);
+                const seconds = totalSeconds % 60;
+
+                const pad = (num) => String(num).padStart(2, '0');
+                if (timerElem) {
+                    timerElem.innerText = `${pad(hours)}h ${pad(minutes)}m ${pad(seconds)}s`;
+                }
+            }, 1000);
+        })();
+
+        // Gallery Slider Logic
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.gallery-slide');
+        const dots = document.querySelectorAll('#gallery-dots button');
+
+        function showSlide(index) {
+            if (slides.length === 0) return;
+            if (index >= slides.length) currentSlide = 0;
+            else if (index < 0) currentSlide = slides.length - 1;
+            else currentSlide = index;
+
+            slides.forEach((slide, i) => {
+                if (i === currentSlide) {
+                    slide.classList.remove('opacity-0', 'pointer-events-none');
+                    slide.classList.add('opacity-100');
+                } else {
+                    slide.classList.remove('opacity-100');
+                    slide.classList.add('opacity-0', 'pointer-events-none');
+                }
+            });
+
+            dots.forEach((dot, i) => {
+                if (i === currentSlide) {
+                    dot.classList.remove('bg-white/40');
+                    dot.classList.add('bg-[#2eee8b]');
+                } else {
+                    dot.classList.remove('bg-[#2eee8b]');
+                    dot.classList.add('bg-white/40');
+                }
+            });
+        }
+
+        document.getElementById('prev-gallery')?.addEventListener('click', () => showSlide(currentSlide - 1));
+        document.getElementById('next-gallery')?.addEventListener('click', () => showSlide(currentSlide + 1));
+        dots.forEach((dot, idx) => dot.addEventListener('click', () => showSlide(idx)));
+
+        // Auto slide gallery every 4 seconds
+        setInterval(() => {
+            showSlide(currentSlide + 1);
+        }, 4000);
+
+        // Date Initializing & Dynamic Price Engine
+        document.addEventListener('DOMContentLoaded', () => {
+            const checkinInput = document.getElementById('checkin-date');
+            const checkoutInput = document.getElementById('checkout-date');
+            
+            const today = new Date();
+            const tomorrow = new Date(today);
+            tomorrow.setDate(tomorrow.getDate() + 1);
+            
+            const nextDay = new Date(today);
+            nextDay.setDate(nextDay.getDate() + 2);
+
+            checkinInput.value = tomorrow.toISOString().split('T')[0];
+            checkoutInput.value = nextDay.toISOString().split('T')[0];
+
+            checkinInput.addEventListener('change', calculateTotalPrice);
+            checkoutInput.addEventListener('change', calculateTotalPrice);
+            document.getElementById('room-type').addEventListener('change', calculateTotalPrice);
+
+            calculateTotalPrice();
+        });
+
+        // Price Calculation Helper
+        function calculateTotalPrice() {
+            const checkin = new Date(document.getElementById('checkin-date').value);
+            const checkout = new Date(document.getElementById('checkout-date').value);
+            const roomSelect = document.getElementById('room-type');
+            
+            const pricePerNight = parseFloat(roomSelect.options[roomSelect.selectedIndex].getAttribute('data-price')) || 380;
+
+            if (checkout > checkin) {
+                const diffTime = Math.abs(checkout - checkin);
+                const nights = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+                const totalPrice = nights * pricePerNight;
+
+                document.getElementById('night-count-label').innerText = `${nights} Malam`;
+                document.getElementById('estimated-price').innerText = `RM ${totalPrice}`;
+                return { nights, totalPrice, pricePerNight };
+            } else {
+                document.getElementById('night-count-label').innerText = `Tarikh Tidak Sah`;
+                document.getElementById('estimated-price').innerText = `RM ${pricePerNight}`;
+                return { nights: 1, totalPrice: pricePerNight, pricePerNight };
+            }
+        }
+
+        // Select Room Action from Room Cards
+        function selectRoom(roomValue) {
+            const roomSelect = document.getElementById('room-type');
+            for (let i = 0; i < roomSelect.options.length; i++) {
+                if (roomSelect.options[i].value.includes(roomValue) || roomValue.includes(roomSelect.options[i].value)) {
+                    roomSelect.selectedIndex = i;
+                    break;
+                }
+            }
+            calculateTotalPrice();
+            document.getElementById('semak-tarikh').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // FAQ Accordion
+        function toggleFaq(id) {
+            const content = document.getElementById(`faq-content-${id}`);
+            const icon = document.getElementById(`faq-icon-${id}`);
+
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.classList.add('rotate-180');
+            } else {
+                content.classList.add('hidden');
+                icon.classList.remove('rotate-180');
+            }
+        }
+
+        // Mobile Menu Drawer Toggle
+        const mobileBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Global variable to store active booking data for confirmation screen
+        let activeBookingData = {};
+
+        // Form Submit -> Opens Confirmation Modal Page
+        document.getElementById('quick-booking-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const name = document.getElementById('guest-name').value || 'Tetamu';
+            const checkin = document.getElementById('checkin-date').value;
+            const checkout = document.getElementById('checkout-date').value;
+            const roomSelect = document.getElementById('room-type');
+            const roomName = roomSelect.options[roomSelect.selectedIndex].value;
+            const adults = document.getElementById('adult-count').value;
+            const children = document.getElementById('child-count').value;
+            
+            const calc = calculateTotalPrice();
+            const refNo = 'TB-' + Math.floor(1000 + Math.random() * 9000);
+
+            activeBookingData = {
+                refNo,
+                name,
+                checkin,
+                checkout,
+                nights: calc.nights,
+                roomName,
+                adults,
+                children,
+                totalPrice: `RM ${calc.totalPrice}`
+            };
+
+            // Populate Modal Fields
+            document.getElementById('confirm-ref').innerText = refNo;
+            document.getElementById('confirm-name').innerText = name;
+            document.getElementById('confirm-unit').innerText = roomName;
+            document.getElementById('confirm-dates').innerText = `${checkin} hingga ${checkout} (${calc.nights} Malam)`;
+            document.getElementById('confirm-guests').innerText = `${adults} Dewasa, ${children} Kanak-kanak`;
+            document.getElementById('confirm-price').innerText = `RM ${calc.totalPrice}`;
+
+            // Display Confirmation Modal
+            document.getElementById('confirmation-modal').classList.remove('hidden');
+        });
+
+        function closeConfirmationModal() {
+            document.getElementById('confirmation-modal').classList.add('hidden');
+        }
+
+        // Send Direct WhatsApp Function
+        document.getElementById('send-whatsapp-btn').addEventListener('click', function() {
+            if (!activeBookingData.refNo) return;
+
+            const whatsappMessage = `Salam / Hai Teratak Bari,%0A%0ASaya ingin mengesahkan tempahan Homestay berikut:%0A%0A📌 *No. Rujukan:* ${activeBookingData.refNo}%0A👤 *Nama Tetamu:* ${activeBookingData.name}%0A🏠 *Unit Homestay:* ${activeBookingData.roomName}%0A📅 *Tarikh Masuk:* ${activeBookingData.checkin}%0A📅 *Tarikh Keluar:* ${activeBookingData.checkout} (${activeBookingData.nights} Malam)%0A👥 *Tetamu:* ${activeBookingData.adults} Dewasa, ${activeBookingData.children} Kanak-kanak%0A💰 *Anggaran Harga:* ${activeBookingData.totalPrice}%0A%0AAdakah tarikh ini masih wujud kekosongan? Terima kasih!`;
+
+            const phoneNumber = "60123456789";
+            window.open(`https://wa.me/${phoneNumber}?text=${whatsappMessage}`, '_blank');
+            closeConfirmationModal();
+        });
+    </script>
+</body>
+</html>
